@@ -6,7 +6,8 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "bootstrap": "4.4.1",
-    "gatsby": "^2.19.45",
+    "gatsby": "^2.20.9",
+    "gatsby-cli": "^2.11.3",
     "gatsby-image": "^2.2.44",
     "gatsby-plugin-manifest": "^2.2.48",
     "gatsby-plugin-offline": "^3.0.41",
@@ -16,14 +17,18 @@
     "gatsby-plugin-sharp": "^2.4.13",
     "gatsby-source-filesystem": "^2.1.56",
     "gatsby-transformer-sharp": "^2.3.19",
-    "node-sass": "^4.13.1",
     "prop-types": "^15.7.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "css-loader": "^3.4.2",
+    "node-sass": "^4.13.1",
+    "prettier": "^1.19.1",
+    "sass-loader": "^8.0.2",
+    "ts-loader": "^6.2.2",
+    "webpack": "^4.42.1"
   },
   "keywords": [
     "gatsby"
