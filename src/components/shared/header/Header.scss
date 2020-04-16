@@ -1,0 +1,59 @@
+@import "../../../styles/bootstrapDependecies.scss";
+
+$gray-dark: #262430;
+$pink: #CE657C;
+$white: #ffffff;
+
+.navbar {
+  background-color: $gray-dark;
+  color: $white;
+  font-weight: 600;
+
+  .icon-navbar {
+    z-index: 1;
+  }
+
+  @include media-breakpoint-up(md) {
+    background-color:$white;
+    color: $gray-dark;
+    display: flex;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+    &:hover {
+      color: $pink;
+    }
+  }
+
+  .btn-menu {
+    background-color: $gray-dark;
+    a {
+      display: none;
+      margin: 2px 0;
+    }
+
+    @include media-breakpoint-up(md) {
+      background-color: white;
+      a {
+        display: flex;
+      }
+    }
+
+    &.active {
+      height: 15em;
+      left: 0;
+      position: absolute;
+      text-align: center;
+      z-index: 1;
+      @include media-breakpoint-up(md) {
+        left: none;
+      }
+      a {
+        display: block;
+        margin-right: 0;
+      }
+    }
+  }
+}
