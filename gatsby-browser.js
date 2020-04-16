@@ -6,4 +6,5 @@
 
 // You can delete this file if you're not using it
 import 'bootstrap/dist/css/bootstrap.css';
-import './src/styles/fonts.scss'
+import './src/styles/fonts.scss';
+import './src/styles/bootstrapDependecies.scss';
