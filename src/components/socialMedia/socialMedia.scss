@@ -1,0 +1,35 @@
+.social-media {
+  height: min-content;
+  .instagram, .medium, .twitter {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 23px;
+    height: 30px;
+    width: 30px;
+  }
+  
+  .instagram {
+    background-image: url('../../images/instagram.png');
+    &:hover {
+      background-image: url('../../images/instagram-hover.png');
+      background-size: 25px;
+    }
+  }
+  
+  .medium {
+    background-image: url('../../images/medium.png');
+    &:hover {
+      background-image: url('../../images/medium-hover.png');
+      background-size: 26px;
+    }
+  }
+  
+  .twitter {
+    background-image: url('../../images/twitter.png');
+    background-size: 25px;
+    &:hover {
+      background-size: 28px;
+      background-image: url('../../images/twitter-hover.png');
+    }
+  }
+}

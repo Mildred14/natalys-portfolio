@@ -1,9 +1,14 @@
-@import '../../styles/variables';
+@import "../../styles/variables";
+@import "../../styles/bootstrapDependecies.scss";
 
 .about {
   background: $dark-gray;
-  width: 90%;
   height: 60vh;
-  margin: 0 auto;
-  border-radius: 20px;
+  padding: 15px;
+  width: 100%;
+  @include media-breakpoint-up(md) {
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 90%;
+  }
 }

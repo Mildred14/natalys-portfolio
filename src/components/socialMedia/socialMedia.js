@@ -1,32 +1,32 @@
 import React from 'react'
-import Medium from '../../images/medium.png'
-import Twitter from '../../images/twitter.png'
-import Instagram from '../../images/Instagram.png'
+import './socialMedia.scss'
 
 const socialMedia = () => {
   const icons = [
     {
-      image: Medium,
+      class: 'medium',
       link : "https://medium.com/@mildrednatalysilva"
     },
     {
-      image: Instagram,
+      class: 'instagram',
       link : "https://www.instagram.com/natalymendez09/"
     },
     {
-      image: Twitter,
+      class: 'twitter',
       link : "https://twitter.com/__Mildreed"
     },
   ]
 
   const imgs = icons.map((icon, index) => {
     return (
-      <a key={index} href={icon.link}><img src={icon.image} height="20" className="mr-3" /></a>
+      <a key={index} href={icon.link}>
+        <div className={`mr-3 ${icon.class}`} />
+      </a>
     )
   })
 
   return (
-    <div>
+    <div className="d-flex social-media">
       {imgs}
     </div>
   )
