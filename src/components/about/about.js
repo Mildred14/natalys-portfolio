@@ -7,6 +7,7 @@ const About = () =>
     <div className="row align-self-end">
       <h3 className="text-white m-0">ABOUT ME</h3>
     </div>
+
     <div className="row justify-content-center align-items-center">
       <div className="col-md-6">
         <p className="text-white mb-0">Based in Mexico, I studied Software Engineering at Universidad de Colima,
@@ -16,6 +17,7 @@ const About = () =>
           design because I love working with the front-end side. </p>
       </div>
     </div>
+
     <SocialMedia />
   </div>
 export default About

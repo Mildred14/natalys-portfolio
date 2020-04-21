@@ -1,5 +1,6 @@
 .social-media {
   height: min-content;
+
   .instagram, .medium, .twitter {
     background-position: center;
     background-repeat: no-repeat;
@@ -7,7 +8,7 @@
     height: 30px;
     width: 30px;
   }
-  
+
   .instagram {
     background-image: url('../../images/instagram.png');
     &:hover {
@@ -15,7 +16,7 @@
       background-size: 25px;
     }
   }
-  
+
   .medium {
     background-image: url('../../images/medium.png');
     &:hover {
@@ -23,7 +24,7 @@
       background-size: 26px;
     }
   }
-  
+
   .twitter {
     background-image: url('../../images/twitter.png');
     background-size: 25px;
