@@ -1,11 +1,8 @@
 @import "../../../styles/bootstrapDependecies.scss";
-
-$gray-dark: #262430;
-$pink: #CE657C;
-$white: #ffffff;
+@import "../../../styles/variables";
 
 .navbar {
-  color: $gray-dark;
+  color: $dark-gray;
   font-weight: 600;
   position: absolute;
   z-index: 1;
@@ -24,10 +21,6 @@ $white: #ffffff;
     }
   }
 
-  &.active {
-    background-color: $gray-dark;
-  }
-
   .btn-menu {
     background-color: $white;
     a {
@@ -42,17 +35,18 @@ $white: #ffffff;
         display: flex;
       }
     }
-
   }
-  
+
   &.active {
+    background-color: $dark-gray;
+
     .btn-menu {
       height: 15em;
       left: 0;
       position: absolute;
       text-align: center;
       z-index: 1;
-      background-color: $gray-dark;
+      background-color: $dark-gray;
     }
 
     a {
@@ -68,7 +62,7 @@ $white: #ffffff;
 
   @include media-breakpoint-up(md) {
     background-color:$white;
-    color: $gray-dark;
+    color: $dark-gray;
     position: relative;
   }
 }
