@@ -1,0 +1,21 @@
+@import "../../styles/variables";
+
+.landing {
+  background: $yellow;
+  background: linear-gradient(180deg,$yellow 0%, $pink 100%);
+  font-family: "Poppins";
+
+  .cursive {
+    font-weight: 500;
+    font-size: 60px;
+    font-family: "Monsieur Pomme";
+  }
+
+  .huge-title {
+    font-size: 85px;
+  }
+
+  .welcome-text {
+    font-size: 40px;
+  }
+}

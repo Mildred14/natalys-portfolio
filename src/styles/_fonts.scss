@@ -1,9 +1,14 @@
 @font-face {
   font-family: Nunito;
-  src: url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+  src: url('./Nunito/Nunito-Regular.ttf');
 }
 
 @font-face {
   font-family: Poppins;
-  src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap')
+  src: url('./Poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+  font-family: Monsieur Pomme;
+  src: url('./monsieur_pomme/Monsieur-Pomme.otf');
 }
