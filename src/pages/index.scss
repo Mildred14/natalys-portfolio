@@ -2,12 +2,16 @@
 @import "../styles/bootstrapDependecies.scss";
 
 .container-wrap {
-  height: 60vh;
   padding: 15px;
-  width: 100%;
-  @include media-breakpoint-up(md) {
-    border-radius: 20px;
-    margin: 0 auto;
-    width: 90%;
+
+  &.container-size {
+    height: 60vh;
+    width: 100%;
+
+    @include media-breakpoint-up(md) {
+      border-radius: 20px;
+      margin: 0 auto;
+      width: 90%;
+    }
   }
 }
