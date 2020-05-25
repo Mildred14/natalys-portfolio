@@ -5,6 +5,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import About from '../components/about/about'
 import Landing from '../components/landing/landing'
+import Profile from '../components/profile/profile'
 import './index.scss'
 
 const IndexPage = () => (
@@ -12,6 +13,7 @@ const IndexPage = () => (
     <SEO title="MILDRED SILVA" />
     <div>
       <Landing klass="container-wrap" />
+      <Profile klass="container-wrap" />
       <About klass="container-wrap" />
       <Link to="/page-2/">Go to page 2</Link>
     </div>

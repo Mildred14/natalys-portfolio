@@ -1,0 +1,15 @@
+@import "../../styles/bootstrapDependecies.scss";
+@import "../../styles/variables";
+
+.profile {
+  @include media-breakpoint-up(md) {
+    height: 200px;
+    .wrap-image {
+      position: absolute;
+      transform: translate(100%, -45%);
+    }
+  }
+  .name {
+    color: $pink;
+  }
+}
