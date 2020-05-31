@@ -39,10 +39,6 @@ progress {
 template {
   display: none;
 }
-a {
-  background-color: transparent;
-  -webkit-text-decoration-skip: objects;
-}
 a:active,
 a:hover {
   outline-width: 0;
@@ -253,40 +249,8 @@ h6 {
   font-size: 0.78405rem;
   line-height: 1.1;
 }
-hgroup {
-}
-ul {
-  margin-left: 1.45rem;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
-  list-style-position: outside;
-  list-style-image: none;
-}
-ol {
-  margin-left: 1.45rem;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
-  list-style-position: outside;
-  list-style-image: none;
-}
-dl {
-}
-dd {
-}
 p {
   font-size: 16px;
-}
-figure {
 }
 pre {
   margin-left: 0;
@@ -319,12 +283,6 @@ blockquote {
   padding-top: 0;
   margin-bottom: 1.45rem;
 }
-form {
-}
-noscript {
-}
-iframe {
-}
 hr {
   margin-left: 0;
   margin-right: 0;
@@ -338,8 +296,6 @@ hr {
   border: none;
   height: 1px;
 }
-address {
-}
 b {
   font-weight: bold;
 }
@@ -351,37 +307,6 @@ dt {
 }
 th {
   font-weight: bold;
-}
-li {
-  margin-bottom: calc(1.45rem / 2);
-}
-ol li {
-  padding-left: 0;
-}
-ul li {
-  padding-left: 0;
-}
-li > ol {
-  margin-left: 1.45rem;
-  margin-bottom: calc(1.45rem / 2);
-  margin-top: calc(1.45rem / 2);
-}
-li > ul {
-  margin-left: 1.45rem;
-  margin-bottom: calc(1.45rem / 2);
-  margin-top: calc(1.45rem / 2);
-}
-blockquote *:last-child {
-  margin-bottom: 0;
-}
-li *:last-child {
-  margin-bottom: 0;
-}
-p *:last-child {
-  margin-bottom: 0;
-}
-li > p {
-  margin-bottom: calc(1.45rem / 2);
 }
 code {
   font-size: 0.85rem;

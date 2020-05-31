@@ -1,0 +1,22 @@
+@import "../../styles/variables";
+
+.experience {
+  &.container-wrap {
+    background: $yellow;
+    &.container-size{
+      height: auto;
+    }
+  }
+
+  .experience-list {
+    height: auto;
+    li > a {
+      color: $dark-gray;
+      font-weight: bold;
+      text-decoration: none;
+      &:hover {
+        border-bottom:1.5px solid $dark-gray;
+      }
+    }
+  }
+}
