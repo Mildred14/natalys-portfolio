@@ -3,7 +3,7 @@ import SocialMedia from 'components/socialMedia/socialMedia'
 import './about.scss'
 
 const About = ({ klass }) =>
-  <div className={`about ${klass} row no-gutters justify-content-center text-center`}>
+  <div id="about" className={`about ${klass} row no-gutters justify-content-center text-center`}>
     <div className="row align-self-end">
       <h3 className="text-white m-0">ABOUT ME</h3>
     </div>

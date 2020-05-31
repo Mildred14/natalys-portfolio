@@ -6,7 +6,7 @@ const profile = () => {
   return (
     <div className="profile d-flex flex-column align-items-center justify-content-center my-3">
       <div className="wrap-image">
-        <img src={ProfilePicture} height="260" />
+        <img src={ProfilePicture} alt="profile" height="260" />
       </div>
       <div>
         <h3 className="mb-0">I'M</h3>
